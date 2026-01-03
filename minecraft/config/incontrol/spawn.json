@@ -1,0 +1,14 @@
+[
+  {
+    "mob": "minecraft:phantom",
+    "when": "onjoin",
+    "dimension": "minecraft:overworld",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:enderman",
+    "dimension": "minecraft:the_end",
+    "mincount": 45,
+    "result": "deny"
+  }
+]

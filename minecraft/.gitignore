@@ -1,0 +1,78 @@
+# ============================================================================  
+# Default Ignore Rule  
+# ----------------------------------------------------------------------------  
+# • Ignore everything by default to prevent accidental commits of unnecessary files.  
+# ============================================================================
+*
+
+# ============================================================================
+# Keep .gitignore file
+# ============================================================================
+!.gitignore
+
+# ============================================================================  
+# Minecraft Folder Access  
+# ----------------------------------------------------------------------------  
+# • Allows traversal into essential Minecraft folders for mods, scripts, and configs.  
+# ============================================================================
+!mods/
+!kubejs/
+!config/
+
+# ============================================================================  
+# Mod JAR Files  
+# ============================================================================
+!mods/*.jar
+
+# ============================================================================  
+# Ignore Mods
+# ----------------------------------------------------------------------------
+# • Not needed for the client.
+# ============================================================================
+mods/ProbeJS-*.jar
+mods/LuckPerms-*.jar
+mods/lpcmod-*.jar
+mods/spark-*.jar
+mods/worldedit-*.jar
+
+# ============================================================================  
+# Ignore Mod Index  
+# ============================================================================
+mods/.index/
+
+# ============================================================================  
+# Keep KubeJS Scripts
+# ============================================================================
+!kubejs/assets/
+!kubejs/assets/**
+!kubejs/client_scripts/
+!kubejs/client_scripts/**
+!kubejs/server_scripts/
+!kubejs/server_scripts/**
+!kubejs/startup_scripts/
+!kubejs/startup_scripts/**
+
+# ============================================================================  
+# Single Mod Configs  
+# ----------------------------------------------------------------------------  
+# • Keep individual mod config files that are necessary.  
+# ============================================================================
+!config/supplementaries-common.toml
+!config/condiments-common.toml
+!config/resourcepackoverrides.json
+!config/betterf3.toml
+
+# ============================================================================  
+# Full Config Folders  
+# ----------------------------------------------------------------------------  
+# • Include entire folders for mods that require multiple config files to function.  
+# ============================================================================
+!config/incontrol/
+!config/incontrol/**
+
+!config/fancymenu/
+!config/fancymenu/options.txt
+!config/fancymenu/assets/
+!config/fancymenu/assets/**
+!config/fancymenu/customization/
+!config/fancymenu/customization/**

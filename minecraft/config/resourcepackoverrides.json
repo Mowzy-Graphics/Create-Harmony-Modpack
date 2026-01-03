@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "mod/subtle_effects:resourcepacks/biome_color_water_particles",
+    "vanilla",
+    "mod_resources",
+    "moonlight:merged_pack",
+    "scholar:colored_books",
+    "scholar:chiseled_bookshelf_colored_books"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {
+    "vanilla": {
+      "title": "\"Vanilla Assets\"",
+      "description": "\"Resource pack from Minecraft\"",
+      "required": true,
+      "hidden": true
+    },
+    "mod_resources": {
+      "title": "\"Modded Assets\"",
+      "description": "\"Resources added by mods\"",
+      "required": true,
+      "hidden": true
+    },
+    "default_packs_hidding": [
+      "high_contrast",
+      "programmer_art",
+      "moonlight:merged_pack",
+      "scholar:colored_books",
+      "scholar:chiseled_bookshelf_colored_books",
+      "mod/subtle_effects:resourcepacks/biome_color_water_particles",
+      "mod/natures_spirit:resourcepacks/emissive_ores_compatibility",
+      "mod/natures_spirit:resourcepacks/plank_consistency",
+      "mod/lootr:resourcepacks/old_textures",
+      "supplementaries:darker_ropes"
+    ],
+    "$$default_packs_hidding": {
+      "hidden": true
+    },
+    "voice_chat": ["black_icons", "white_icons", "classic_icons"],
+    "$$voice_chat": {
+      "hidden": true
+    }
+  }
+}

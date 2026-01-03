@@ -1,0 +1,21 @@
+[crates]
+	#How many full stacks of an item each crate can hold
+	# Default: 64
+	# Range: 1 ~ 256
+	crate_max_contained_stacks = 64
+	#Stack size of empty crates
+	# Default: 64
+	# Range: 1 ~ 64
+	empty_crate_stack_size = 64
+	#If crates are allowed to contain empty crates
+	crates_contain_empty_crates = true
+
+[misc]
+	#If beacon beams stop at tinted glass (and exist up to that point)
+	tinted_glass_terminates_beacons = true
+	#Analog rail max speed (blocks per tick, before natural slowdown)
+	# Default: 0.6
+	# Range: 0.1 ~ 16.0
+	analog_rail_max_speed = 0.6
+	#If fire on copper blocks should turn into a green copper fire
+	copper_fire = false

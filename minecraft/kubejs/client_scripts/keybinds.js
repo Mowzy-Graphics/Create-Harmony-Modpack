@@ -1,0 +1,28 @@
+KeyBindJSEvents.modify((event) => {
+  event.remove("key.socialInteractions");
+  event.remove("key.jade.narrate");
+  event.remove("key.jade.show_recipes");
+  event.remove("key.kubejs.kubedex");
+  event.remove("key.saveToolbarActivator");
+  event.remove("key.loadToolbarActivator");
+  event.remove("key.entityculling.toggle");
+  event.remove("treechop.key.toggle_chopping");
+  event.remove("treechop.key.cycle_sneak_behavior");
+  event.remove("treechop.key.open_settings_overlay");
+  event.remove("keybinds.bettercombat.feint");
+  event.remove("keybinds.bettercombat.toggle_mine_with_weapons");
+  event.remove("key.immersive_aircraft.fallback_control_left");
+  event.remove("key.immersive_aircraft.fallback_control_right");
+  event.remove("key.immersive_aircraft.fallback_control_forward");
+  event.remove("key.immersive_aircraft.fallback_control_backward");
+  event.remove("key.immersive_aircraft.fallback_control_up");
+  event.remove("key.immersive_aircraft.fallback_control_down");
+  event.remove("key.immersive_aircraft.fallback_control_pull");
+  event.remove("key.immersive_aircraft.fallback_control_push");
+  event.remove("key.immersive_aircraft.fallback_use");
+  event.remove("iris.keybind.wireframe");
+  event.remove("key.modernfix.config");
+  event.remove("key.jei.toggleEditMode");
+  event.remove("key.jei.toggleHideIngredient");
+  event.remove("key.jei.toggleWildcardHideIngredient");
+});

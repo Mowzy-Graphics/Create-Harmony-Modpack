@@ -1,0 +1,21 @@
+[
+  {
+    "mob": "minecraft:phantom",
+    "persecond": 0.08,
+    "attempts": 3,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5,
+      "groupdistance": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:the_end",
+      "inair": true,
+      "mindist": 20,
+      "maxdist": 120,
+      "minheight": 1,
+      "maxheight": 256,
+      "maxthis": 8
+    }
+  }
+]
