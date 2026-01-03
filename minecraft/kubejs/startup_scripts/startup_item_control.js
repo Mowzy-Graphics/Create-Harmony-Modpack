@@ -62,6 +62,14 @@ function expandPlaceholders(receivingArray, sourceArray) {
       continue;
     }
 
+    // ---- Nature Spirit Wood Types
+    if (entry.includes("+NSWOODTYPE")) {
+      global.nsWoodVariants.forEach(function (wood) {
+        queue.push(entry.replace("+NSWOODTYPE", wood));
+      });
+      continue;
+    }
+
     // ---- Dye colors
     if (entry.includes("+DYECOLOR")) {
       global.dyeColors.forEach(function (color) {

@@ -83,6 +83,10 @@ global.itemsToRemoveAndHide = [
   "condiments:+DYECOLOR_crate",
   "condiments:crate",
 
+  // everycompat - dramatic doors
+  "everycomp:dd/natures_spirit/tall_+NSWOODTYPE_door",
+  "everycomp:dd/natures_spirit/short_+NSWOODTYPE_door",
+
   //natures_spirit
   "natures_spirit:paper_sign", //ITEM INVISIBLE WAITING FOR FIX TO RE IMPLEMENT
   "natures_spirit:paper_hanging_sign", //WAITING FOR SIGN TO BE FIXED
