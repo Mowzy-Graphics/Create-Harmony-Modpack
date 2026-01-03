@@ -29,6 +29,9 @@
 # ----------------------------------------------------------------------------
 # • Not needed for the client.
 # ============================================================================
+mods/forgified-fabric-*.jar
+mods/connector-*.jar
+mods/Axiom-*.jar
 mods/ProbeJS-*.jar
 mods/LuckPerms-*.jar
 mods/lpcmod-*.jar
