@@ -37,6 +37,7 @@ mods/LuckPerms-*.jar
 mods/lpcmod-*.jar
 mods/spark-*.jar
 mods/worldedit-*.jar
+mods/effortless-*.jar
 
 # ============================================================================  
 # Ignore Mod Index  
@@ -79,3 +80,5 @@ mods/.index/
 !config/fancymenu/assets/**
 !config/fancymenu/customization/
 !config/fancymenu/customization/**
+
+.probe
